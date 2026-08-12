@@ -29,7 +29,7 @@ export const camping = {
     href: "/contact#beschikbaarheid"
   },
   images: {
-    hero: "/images/de-hane-bron/site-eigen/welkom-camping.jpg",
+    hero: "/images/hero-boerderijcamping.png",
     field: "/images/de-hane-bron/site-eigen/kampeerplaats-caravan.jpg",
     camper: "/images/de-hane-bron/site-eigen/camperplaatsen-overzicht.jpg",
     campingGreen: "/images/de-hane-bron/site-eigen/kamperen-veld.jpg",

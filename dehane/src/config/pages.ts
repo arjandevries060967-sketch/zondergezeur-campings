@@ -32,6 +32,10 @@ export const pages = {
       {
         src: "/images/de-hane-bron/site-eigen/reserveren-camping.jpg",
         alt: "Landelijke campingplek bij De Hane"
+      },
+      {
+        src: camping.images.header,
+        alt: "Tenten, caravan en bloemen op Minicamping De Hane"
       }
     ]
   },
@@ -146,10 +150,6 @@ export const pages = {
       {
         src: camping.images.cycling,
         alt: "Fietsen door het groene landschap van de Veluwe"
-      },
-      {
-        src: "/images/de-hane-bron/site-eigen/header-camping.jpg",
-        alt: "Landelijke ligging van Minicamping De Hane"
       }
     ]
   },
