@@ -9,6 +9,7 @@ export const camping = {
   intro:
     "Rust, ruimte en alles dichtbij: ruime kampeerplaatsen, nieuw sanitair en recreatiegebied Bussloo aan de overkant.",
   contact: {
+    // TODO: vervang door echte contactgegevens eigenaar vóór livegang.
     phone: "055 000 0000",
     phoneHref: "tel:+31550000000",
     email: "info@example.com",
@@ -85,6 +86,7 @@ export const camping = {
     }
   ],
   heroFacts: [
+    // TODO: bevestigen met eigenaar (bron oud: 23 plaatsen / 150m2, nieuwe demo: 25 / 120m2 - mogelijk verouderd of gewijzigd).
     { value: "25", label: "kampeerplaatsen" },
     { value: "13", label: "camperplaatsen" },
     { value: "2025", label: "nieuw sanitair" }
@@ -92,6 +94,7 @@ export const camping = {
   usp: [
     {
       title: "Rustig en kleinschalig",
+      // TODO: bevestigen met eigenaar (bron oud: 23 plaatsen / 150m2, nieuwe demo: 25 / 120m2 - mogelijk verouderd of gewijzigd).
       text: "Ongeveer 25 kampeerplaatsen, verdeeld over kleine groene veldjes."
     },
     {
@@ -135,9 +138,9 @@ export const camping = {
     }
   ],
   rates: [
-    { label: "Kampeerplaats", value: "vanaf prijs volgt" },
-    { label: "Camperplaats", value: "concepttarief controleren" },
-    { label: "Het Haantje", value: "op aanvraag" }
+    { label: "Kampeerplaats", value: "vanaf € 27 all-in" },
+    { label: "Camperplaats", value: "€ 23 all-in" },
+    { label: "Huurcaravan", value: "€ 42,50" }
   ],
   surroundings: [
     "Bussloo voor zwemmen, wandelen en ontspannen",

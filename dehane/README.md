@@ -38,6 +38,22 @@ Zie `.env.example`.
 
 Zet deze variabelen lokaal in `.env.local` en in Vercel voor Production en Preview.
 
+## Beschikbaarheidsformulier
+
+Het formulier valideert de verplichte velden server-side via
+`src/app/api/availability/route.ts`.
+
+- Zonder `RESEND_API_KEY` en `RESEND_TO` verstuurt de site nog geen mail, maar
+  toont hij wel een nette succesmelding na submit. Dit is bewust handig voor de
+  demo.
+- Met `RESEND_API_KEY` en `RESEND_TO` ingesteld stuurt de route de aanvraag via
+  Resend door naar de ingestelde ontvanger.
+- De contactgegevens in `src/config/camping.ts` zijn placeholders en moeten vóór
+  livegang worden vervangen door gegevens van de eigenaar.
+
+Er is nu geen analytics/tracking toegevoegd en daarom ook geen cookiebanner
+nodig. Voeg een cookiemelding toe zodra er tracking, marketingpixels of niet-noodzakelijke cookies bijkomen.
+
 ## Publicatie
 
 Voorkeursroute:

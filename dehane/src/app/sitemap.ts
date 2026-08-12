@@ -14,10 +14,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1
     },
     {
+      url: `${baseUrl}/tarieven`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8
+    },
+    {
       url: `${baseUrl}/contact`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8
+    },
+    {
+      url: `${baseUrl}/privacy`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3
+    },
+    {
+      url: `${baseUrl}/voorwaarden`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3
     },
     ...Object.keys(pages).map((slug) => ({
       url: `${baseUrl}/${slug}`,

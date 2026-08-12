@@ -325,6 +325,39 @@ section {
   margin: 0.35rem 0 0;
 }
 
+.reviews-layout {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.review-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.review-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  margin: 0;
+  padding: 1.1rem;
+}
+
+.review-card blockquote {
+  color: var(--green);
+  font-family: var(--font-lora), Georgia, serif;
+  font-size: 1.18rem;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.review-card figcaption {
+  color: rgba(37, 42, 38, 0.7);
+  font-size: 0.86rem;
+  font-weight: 700;
+  margin-top: 0.8rem;
+}
+
 .sanitary-highlight {
   background: var(--green);
   color: var(--paper);
@@ -445,6 +478,10 @@ section {
   font-size: 1.35rem;
 }
 
+.rates-link {
+  margin-top: 1rem;
+}
+
 .rates-layout {
   display: grid;
   gap: 2rem;
@@ -515,6 +552,17 @@ section {
 
 .feature-list.compact li {
   padding: 0.35rem 0;
+}
+
+.policy-content {
+  display: grid;
+  gap: 1rem;
+  max-width: 860px;
+}
+
+.footer-links a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 .form {
@@ -636,6 +684,10 @@ textarea {
 
   .trust-card {
     grid-template-columns: 180px 1fr;
+  }
+
+  .review-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .highlight-grid {

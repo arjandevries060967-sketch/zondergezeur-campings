@@ -1,18 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AvailabilityForm } from "@/components/AvailabilityForm";
 import { ImageBlock } from "@/components/ImageBlock";
 import { camping } from "@/config/camping";
 
-type PageSearchParams = Promise<{ sent?: string; error?: string } | undefined>;
-
-export default async function Home({
-  searchParams
-}: {
-  searchParams?: PageSearchParams;
-}) {
-  const resolvedSearchParams = await searchParams;
-
+export default function Home() {
   return (
     <main>
       <section className="hero">
@@ -63,11 +54,52 @@ export default async function Home({
               De sfeer is herkenbaar landelijk: gras, erf, bomen, caravans en
               de openheid van het Nederlandse landschap.
             </p>
+            <p>
+              De Hane wordt gerund door Rene en Monique de Haan. Zij ontvangen
+              je persoonlijk en zorgen dat je snel je plek vindt.
+            </p>
           </div>
           <ImageBlock
             src={camping.images.aerial}
             alt="Luchtfoto van Minicamping De Hane dichtbij recreatiegebied Bussloo"
           />
+        </div>
+      </section>
+
+      <section>
+        <div className="container reviews-layout">
+          <div className="section-intro">
+            <span className="eyebrow">Ervaringen</span>
+            <h2>Gasten noemen vooral de rust en ontvangst</h2>
+            <p>
+              Onderstaande teksten zijn bedoeld als demo-samenvatting van
+              openbare reviews. Exact citeren en brongebruik nog afstemmen met
+              de eigenaar.
+            </p>
+          </div>
+          <div className="review-grid">
+            <figure className="review-card">
+              <blockquote>
+                Rustige camping in een mooie omgeving, met vriendelijke en
+                behulpzame ontvangst.
+              </blockquote>
+              <figcaption>Samenvatting van openbare reviews</figcaption>
+            </figure>
+            <figure className="review-card">
+              <blockquote>
+                Goede sanitaire voorzieningen en een prettige ligging bij
+                Bussloo.
+              </blockquote>
+              <figcaption>Samenvatting van Campercontact-reviews</figcaption>
+            </figure>
+            <figure className="review-card">
+              <blockquote>
+                Een kleinschalige plek waar je snel tot rust komt en makkelijk
+                de omgeving in gaat.
+              </blockquote>
+              <figcaption>Demo-tekst, te verifiëren met eigenaar</figcaption>
+            </figure>
+          </div>
         </div>
       </section>
 
@@ -222,8 +254,8 @@ export default async function Home({
           <div className="section-intro">
             <h2>Tarieven in het kort</h2>
             <p>
-              Voor de demo houden we dit bewust eenvoudig. Definitieve prijzen
-              en voorwaarden moeten nog worden gecontroleerd.
+              Richtprijzen op basis van de huidige site. Het definitieve tarief
+              wordt altijd bevestigd bij aanvraag.
             </p>
           </div>
           <div className="rate-grid">
@@ -234,6 +266,9 @@ export default async function Home({
               </article>
             ))}
           </div>
+          <Link className="button ghost rates-link" href="/tarieven">
+            Bekijk alle tarieven
+          </Link>
         </div>
       </section>
 
@@ -243,11 +278,18 @@ export default async function Home({
             <span className="eyebrow">Geen directe boeking</span>
             <h2>Beschikbaarheid aanvragen</h2>
             <p>
-              Vul je gewenste periode in. De aanvraag gaat per mail naar de
-              demo-ontvanger of, later, naar de campinghouder.
+              Het formulier staat op de contactpagina. Zo blijft de aanvraag op
+              één plek en is het voor bezoekers duidelijk dat de camping
+              persoonlijk bevestigt.
             </p>
+            <Link className="button primary" href="/contact#beschikbaarheid">
+              Naar het aanvraagformulier
+            </Link>
           </div>
-          <AvailabilityForm searchParams={resolvedSearchParams} />
+          <ImageBlock
+            src={camping.images.campingOverview}
+            alt="Groen kampeerveld op Minicamping De Hane"
+          />
         </div>
       </section>
     </main>

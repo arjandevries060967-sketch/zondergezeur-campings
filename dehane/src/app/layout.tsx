@@ -26,6 +26,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${camping.shortName} | Kleinschalig kamperen aan Bussloo`,
     description: camping.intro,
+    images: [
+      {
+        url: camping.images.hero,
+        width: 1200,
+        height: 630,
+        alt: "Minicamping De Hane"
+      }
+    ],
     siteName: camping.domain,
     locale: "nl_NL",
     type: "website"
@@ -68,6 +76,7 @@ export default function RootLayout({
             <div>
               <strong>Contact</strong>
               <p>
+                {/* TODO: vervang door echte contactgegevens eigenaar vóór livegang. */}
                 {camping.contact.address}
                 <br />
                 <a href={camping.contact.phoneHref}>{camping.contact.phone}</a>
@@ -80,6 +89,15 @@ export default function RootLayout({
               <p>
                 Gebouwd als proof-of-concept voor zondergezeur.nl. Beelden en
                 gegevens zijn tijdelijke demo-inhoud.
+              </p>
+              <p className="footer-links">
+                <a href="https://www.facebook.com/people/Minicamping-De-Hane/100057638329094/">
+                  Facebook-reviews
+                </a>
+                <br />
+                <Link href="/privacy">Privacy</Link>
+                <br />
+                <Link href="/voorwaarden">Voorwaarden</Link>
               </p>
             </div>
           </div>

@@ -81,7 +81,13 @@ export const pages = {
       },
       {
         title: "Warm in herfst en winter",
+        // TE VERIFIËREN MET EIGENAAR: exacte seizoensdata.
         text: "Volgens de huidige site start Het Haantje vanaf 1 november 2025. De ruimte heeft vloerverwarming, een elektrische kachel, een zitje en een zit/slaapbank."
+      },
+      {
+        title: "Voor het rustige seizoen",
+        // TE VERIFIËREN MET EIGENAAR: exacte seizoensdata.
+        text: "Van november tot voorjaar bieden we Het Haantje aan: een knus Bed zonder Breakfast in het nieuwe sanitairgebouw, met vloerverwarming en een sfeervolle kachel."
       },
       {
         title: "Sanitair gedeeld met campergasten",
