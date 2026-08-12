@@ -152,21 +152,5 @@ export const pages = {
         alt: "Fietsen door het groene landschap van de Veluwe"
       }
     ]
-  },
-  tarieven: {
-    title: "Tarieven",
-    description:
-      "Een eenvoudige tarievenpagina voor de demo. Alle bedragen en voorwaarden moeten nog worden gecontroleerd.",
-    image: camping.images.field,
-    sections: [
-      {
-        title: "Helder houden",
-        text: "Voor deze demo gebruiken we bewust geen ingewikkelde tabel. Definitieve tarieven, toeslagen en voorwaarden moeten later met de campinghouder worden afgestemd."
-      },
-      {
-        title: "Aanvragen blijft leidend",
-        text: "Bezoekers vragen beschikbaarheid aan. De aanvraag is geen definitieve boeking en er wordt nog niets automatisch vastgelegd."
-      }
-    ]
   }
 } as const;

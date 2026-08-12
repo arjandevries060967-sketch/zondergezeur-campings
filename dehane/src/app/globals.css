@@ -445,6 +445,78 @@ section {
   font-size: 1.35rem;
 }
 
+.rates-layout {
+  display: grid;
+  gap: 2rem;
+}
+
+.price-section {
+  border-top: 1px solid var(--line);
+  padding-top: 1.4rem;
+}
+
+.price-section .section-intro {
+  margin-bottom: 1rem;
+}
+
+.season-grid,
+.included-grid,
+.rates-two-column {
+  display: grid;
+  gap: 1rem;
+}
+
+.season-grid {
+  margin-bottom: 1rem;
+}
+
+.season-grid div {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.table-wrap {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.price-table {
+  background: var(--white);
+  border-collapse: collapse;
+  min-width: 620px;
+  width: 100%;
+}
+
+.price-table th,
+.price-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.72rem 0.85rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.price-table th {
+  background: rgba(220, 233, 228, 0.55);
+  color: var(--green);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+}
+
+.price-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.feature-list.compact {
+  gap: 0.35rem;
+}
+
+.feature-list.compact li {
+  padding: 0.35rem 0;
+}
+
 .form {
   display: grid;
   gap: 1rem;
@@ -580,6 +652,12 @@ textarea {
   }
 
   .surroundings-photos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .season-grid,
+  .included-grid,
+  .rates-two-column {
     grid-template-columns: repeat(2, 1fr);
   }
 
