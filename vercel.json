@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "dehane/package.json",
+      "use": "@vercel/next"
+    }
+  ]
+}
