@@ -1,0 +1,7 @@
+.DS_Store
+.dehane-git-backup/
+node_modules/
+.next/
+.env
+.env*.local
+*.log
