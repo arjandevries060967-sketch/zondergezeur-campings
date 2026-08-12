@@ -65,8 +65,8 @@ export default async function Home({
             </p>
           </div>
           <ImageBlock
-            src={camping.images.field}
-            alt="Caravan op een groene boerderijcamping in Nederlands landschap"
+            src={camping.images.aerial}
+            alt="Luchtfoto van Minicamping De Hane dichtbij recreatiegebied Bussloo"
           />
         </div>
       </section>
