@@ -29,26 +29,29 @@ export const camping = {
     href: "/contact#beschikbaarheid"
   },
   images: {
-    hero: "/images/hero-boerderijcamping.png",
-    field: "/images/welkom-boerderijcamping.png",
-    camper: "/images/camperplaats-boerderijcamping.png",
+    hero: "/images/de-hane-bron/site-eigen/welkom-camping.jpg",
+    field: "/images/de-hane-bron/site-eigen/kampeerplaats-caravan.jpg",
+    camper: "/images/de-hane-bron/site-eigen/camperplaatsen-overzicht.jpg",
+    campingGreen: "/images/de-hane-bron/site-eigen/kamperen-veld.jpg",
+    campingOverview: "/images/de-hane-bron/site-eigen/kampeerplaatsen-grasveld.jpg",
+    header: "/images/de-hane-bron/site-eigen/header-camping.jpg",
     water: "/images/bussloo-recreatieplas.jpg",
     cycling: "/images/veluwe-fietsen.jpg"
   },
   sanitaryImages: [
     {
-      src: "/images/sanitair-douche.png",
-      alt: "Frisse doucheruimte in een nieuw sanitairgebouw",
+      src: "/images/de-hane-bron/site-eigen/sanitair-douche.jpg",
+      alt: "Doucheruimte in het nieuwe sanitairgebouw van De Hane",
       label: "Gratis douches"
     },
     {
-      src: "/images/sanitair-wastafel.png",
-      alt: "Schone wastafelruimte met lichte tegels en houtaccenten",
+      src: "/images/de-hane-bron/site-eigen/sanitair-wastafel.jpg",
+      alt: "Wastafelruimte in het nieuwe sanitairgebouw van De Hane",
       label: "Fris en praktisch"
     },
     {
-      src: "/images/sanitair-comfort.png",
-      alt: "Comfortabele omkleedruimte met tegelvloer en houten bank",
+      src: "/images/de-hane-bron/site-eigen/sanitair-ruimte-01.jpg",
+      alt: "Nieuwe sanitaire ruimte op Minicamping De Hane",
       label: "Vloerverwarming"
     }
   ],

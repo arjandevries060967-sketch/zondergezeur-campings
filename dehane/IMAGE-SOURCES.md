@@ -8,6 +8,15 @@ De beelden in `public/images/de-hane-bron/` zijn afkomstig van de huidige De Han
 
 Bronpagina: `https://www.minicampingdehane.nl/bed-zonder-breakfast-het-haantje/`
 
+Extra bronpagina's voor de beelden in `public/images/de-hane-bron/site-eigen/`:
+
+- `https://www.minicampingdehane.nl/`
+- `https://www.minicampingdehane.nl/de-camping/`
+- `https://www.minicampingdehane.nl/caravan-en-tent-plaatsen/`
+- `https://www.minicampingdehane.nl/sanitair-gebouw/`
+- `https://www.minicampingdehane.nl/camperplaatsen/`
+- `https://www.minicampingdehane.nl/agenda/`
+
 ## Wikimedia Commons
 
 - `public/images/bussloo-recreatieplas.jpg`
@@ -20,4 +29,4 @@ Bronpagina: `https://www.minicampingdehane.nl/bed-zonder-breakfast-het-haantje/`
 
 ## Gegenereerde demo-placeholderbeelden
 
-De overige lokale demo-foto's, zoals boerderijcamping-, camperplaats- en sanitairbeelden, zijn gegenereerde placeholderbeelden. Vervang ze bij akkoord bij voorkeur door echte foto's van de camping.
+De eerder gegenereerde demo-placeholderbeelden staan nog in `public/images/`, maar de zichtbare hoofdbeelden zijn zoveel mogelijk vervangen door foto's van De Hane zelf.

@@ -5,7 +5,7 @@ export const pages = {
     title: "Kamperen bij De Hane",
     description:
       "Ruime kampeerplaatsen in het groen, met nieuw sanitair en praktische voorzieningen dichtbij.",
-    image: camping.images.field,
+    image: camping.images.campingGreen,
     sections: [
       {
         title: "Ruimte op kleine veldjes",
@@ -18,6 +18,20 @@ export const pages = {
       {
         title: "Met hond of fiets",
         text: "Honden zijn welkom op de camping. Voor fietsers is de ligging prettig: Bussloo, het IJssellandschap en meerdere Hanzesteden liggen dichtbij."
+      }
+    ],
+    galleryImages: [
+      {
+        src: camping.images.field,
+        alt: "Caravan op een ruime kampeerplaats bij De Hane"
+      },
+      {
+        src: camping.images.campingOverview,
+        alt: "Groen kampeerveld op Minicamping De Hane"
+      },
+      {
+        src: "/images/de-hane-bron/site-eigen/reserveren-camping.jpg",
+        alt: "Landelijke campingplek bij De Hane"
       }
     ]
   },
@@ -34,6 +48,20 @@ export const pages = {
       {
         title: "Voorzieningen dichtbij",
         text: "Sanitair, water, stroom en de andere campingvoorzieningen blijven binnen handbereik. Details zoals jaaropenstelling en actuele prijzen moeten nog worden gecontroleerd."
+      }
+    ],
+    galleryImages: [
+      {
+        src: camping.images.camper,
+        alt: "Camperplaatsen bij Minicamping De Hane"
+      },
+      {
+        src: "/images/de-hane-bron/site-eigen/camperplaatsen-groen.jpeg",
+        alt: "Camperplaats tussen het groen bij De Hane"
+      },
+      {
+        src: "/images/de-hane-bron/site-eigen/kampeerplaats-caravan.jpg",
+        alt: "Ruime plek met kampeermiddel op de camping"
       }
     ]
   },
@@ -108,6 +136,20 @@ export const pages = {
       {
         title: "Fietsen en wandelen",
         text: "De omgeving past goed bij rustige routes door groen, langs water en door het IJssellandschap."
+      }
+    ],
+    galleryImages: [
+      {
+        src: camping.images.water,
+        alt: "Recreatieplas Bussloo met strand en water"
+      },
+      {
+        src: camping.images.cycling,
+        alt: "Fietsen door het groene landschap van de Veluwe"
+      },
+      {
+        src: "/images/de-hane-bron/site-eigen/header-camping.jpg",
+        alt: "Landelijke ligging van Minicamping De Hane"
       }
     ]
   },

@@ -74,8 +74,8 @@ export default async function ContentPage({ params }: { params: PageParams }) {
               <span className="eyebrow">Foto&apos;s</span>
               <h2>{page.title} in beeld</h2>
               <p>
-                Tijdelijke demo-weergave met beelden van de huidige De Hane-site
-                en de aangeleverde foto.
+                Beelden van De Hane zelf, zodat de sfeer van de plek direct
+                herkenbaar is.
               </p>
             </div>
             <div className="content-gallery">

@@ -60,9 +60,8 @@ export default async function Home({
               sanitair en veel te doen in de buurt.
             </p>
             <p>
-              De demo zet daarom niet een losse tent centraal, maar het
-              boerderijcampinggevoel: gras, erf, bomen, caravans en de openheid
-              van het Nederlandse landschap.
+              De sfeer is herkenbaar landelijk: gras, erf, bomen, caravans en
+              de openheid van het Nederlandse landschap.
             </p>
           </div>
           <ImageBlock
